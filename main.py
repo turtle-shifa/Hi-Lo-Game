@@ -2,7 +2,7 @@ from idlelib.colorizer import color_config
 from tkinter import *
 import random
 a = [random.randint(0, 10)]
-print(a[0])
+
 def guess_func():
     user = int(spinbox.get())
     if user == a[0]:
